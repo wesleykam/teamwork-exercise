@@ -2,8 +2,6 @@ import { useState } from 'react';
 
 import './wesley.css'
 
-import WesleyButton from '../../buttons/wesleyButton/wesleyButton';
-
 const wesley = () => {
     
     const [count, setCount] = useState(0);
