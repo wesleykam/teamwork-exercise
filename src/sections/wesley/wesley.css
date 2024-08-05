@@ -1,3 +1,7 @@
+/* Look up how flex boxes work */
+/* This is how I learned to use it well */
+/* https://flexboxfroggy.com/ */
+
 .wesley-section {
     display: flex;
     flex-direction: column;
@@ -5,11 +9,15 @@
     width: fit-content;
 }
 
+/* This creates the animation when you hover over the section */
 .wesley-section h2 {
     color: rgb(255, 147, 147);
     transition: transform 0.4s ease;
 }
 
+/* Notice that the hover is assocated with the section and not the header */
+/* This makes it so that the h2 is transformed when the section is hovered, */
+/*  not just when the header is hovered */
 .wesley-section:hover  h2 {
     transform: rotate(180deg);
     transition: transform 0.4s ease;

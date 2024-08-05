@@ -1,3 +1,5 @@
+/* Define section, container, and heading settings so that they are consistent across the entire project */
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-weight: 400;
