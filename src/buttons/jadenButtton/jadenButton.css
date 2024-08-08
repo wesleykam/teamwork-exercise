@@ -1,0 +1,23 @@
+/* There are a lot of units in CSS: px, %, rem, em, etc. */
+/* For things that are associated with readability, I would recommend using rem */
+/* This scales based on the font-size setting of user's browser */
+
+/* If rem is not applicable, try to use %, because it scales with the browser window */
+/* This makes the program somewhat responsive by default */
+button {
+    padding: .5rem;
+    font-size: 1.25rem;
+
+    border-radius: 10px;
+    border: none;
+
+    background-color: #96ff81;
+    transition: background-color 0.4s ease;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ee371f;
+    transition: background-color 0.4s ease;
+}
